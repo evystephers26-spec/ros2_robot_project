@@ -1,0 +1,31 @@
+{
+    "ros.distro": "humble",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "${workspaceFolder}/install/**"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages", 
+        "${workspaceFolder}/install/**"
+    ],
+    "files.associations": {
+        "*.repos": "yaml",
+        "*.world": "xml",
+        "*.xacro": "xml",
+        "*.launch.py": "python",
+        "**/package.xml": "xml"
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/build": true,
+        "**/install": true,
+        "**/log": true
+    },
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+}
