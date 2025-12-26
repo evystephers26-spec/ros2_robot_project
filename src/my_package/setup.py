@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'Lab1'
+package_name = 'my_package'
 
 setup(
     name=package_name,
@@ -23,10 +23,8 @@ setup(
         ],
     },
     entry_points={
-    'console_scripts': [
-        'simple_publisher = Lab1.simple_publisher:main',
-        'simple_subscriber = Lab1.simple_subscriber:main',
-    ],
-},
-
+        'console_scripts': [
+            'simple_publisher = my_package.simple_publisher:main',
+        ],
+    },
 )

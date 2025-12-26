@@ -1,0 +1,13 @@
+# Dossiers ROS2 à ignorer
+build/
+install/
+log/
+
+# Fichiers cachés système
+.DS_Store
+*.swp
+*~
+
+# Fichiers Python
+__pycache__/
+*.pyc
