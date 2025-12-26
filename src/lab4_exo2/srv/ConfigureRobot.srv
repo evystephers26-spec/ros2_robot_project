@@ -1,0 +1,10 @@
+float32 max_velocity
+float32 acceleration_limit
+float32 safety_distance
+bool enable_collision_avoidance
+bool enable_auto_charging
+string robot_id
+---
+bool success
+string message
+string configuration_id
